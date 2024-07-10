@@ -18,6 +18,21 @@ function holdStatus(arr){
   }
 }
 
+let nonSuspiciousFunction = function(a) {
+  if (checkFuel(a) === "green") {
+    return a - 100001;
+  } else if (checkFuel(a) === "yellow") {
+    return a - 50001;
+  } else {
+    return a;
+  }
+}
+
+let nonSuspiciousFunction2 = function(b) {
+  let myNew = [];
+  a.push()
+}
+
 let fuelLevel = 200000;
 let cargoHold = ['meal kits', 'space suits', 'first-aid kit', 'satellite', 'gold', 'water', 'AE-35 unit'];
 
